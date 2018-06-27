@@ -1,0 +1,47 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 60%;
+    background-color: #f2f2f2;
+    border-radius: 20px;
+    margin-top: 2rem;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    font-weight: bold;
+    background-color: #e6e6e6;
+    border-radius: 20px;
+    padding-left: 2rem;
+
+}
+
+.text {
+    text-align: justify;
+    padding: 1rem 2rem;
+}
+
+.like {
+    background-image: url('img/thumbs-up.svg');
+    width:30px;
+    height: 30px;
+    margin-left: 1rem;
+}
+
+.liked {
+    background-image: url('img/heart.svg');   
+}
+
+.likes {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+}
+
+.likeunlike {
+    font-size: 0.9rem;
+    color: darkgray;
+}
